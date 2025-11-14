@@ -47,7 +47,8 @@ mini-project/
 
 1. Clone the repository
 ```bash
-cd mini-project
+git clone https://github.com/Yassine2606/ai-chatbot-memory-reasoning.git
+cd ai-chatbot-memory-reasoning
 ```
 
 2. Install dependencies
@@ -88,7 +89,7 @@ Run the examples:
 
 **Flow**: User Message → Memory Storage → Complexity Check → Reasoning (if needed) → Response → Memory Update
 
-## 🎓 Examples Explained
+## Examples Explained
 
 ### Example 1: Basic Chatbot
 - Demonstrates simple multi-turn conversation
@@ -121,7 +122,7 @@ See the source files in `src/` for detailed method documentation:
 - `src/core/ConversationMemory.ts`
 - `src/core/ChainOfThoughtReasoner.ts`
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 - **GEMINI_API_KEY is required** - Make sure `.env` file exists and contains your API key from https://aistudio.google.com
 - **API Rate Limiting** - Free tier has limits; add delays between requests if needed
