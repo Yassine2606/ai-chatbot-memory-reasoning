@@ -1,0 +1,37 @@
+{
+  "name": "ai-chatbot-memory-reasoning",
+  "version": "1.0.0",
+  "description": "Intelligent chatbots with persistent conversation memory and chain-of-thought reasoning using LangChain and Gemini 2.5 Flash",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev:basic": "npx tsx examples/01-basic-chatbot.ts",
+    "dev:reasoning": "npx tsx examples/02-reasoning-chatbot.ts",
+    "dev:code": "npx tsx examples/03-code-assistant.ts",
+    "start": "npm run dev:basic"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "langchain",
+    "gemini",
+    "chain-of-thought",
+    "reasoning",
+    "conversation-memory",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/google-genai": "^1.0.1",
+    "@types/node": "^24.10.1",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.0.4",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
